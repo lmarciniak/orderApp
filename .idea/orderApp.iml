@@ -61,7 +61,6 @@
       <excludeFolder url="file://$MODULE_DIR$/symfony/vendor/symfony/yaml" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/dataSources" />
       <excludeFolder url="file://$MODULE_DIR$/symfony-app/var" />
-      <excludeFolder url="file://$MODULE_DIR$/symfony-app/vendor" />
       <excludeFolder url="file://$MODULE_DIR$/symfony/vendor/doctrine/data-fixtures" />
       <excludeFolder url="file://$MODULE_DIR$/symfony/vendor/doctrine/doctrine-fixtures-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/symfony/vendor/phpdocumentor/reflection-common" />

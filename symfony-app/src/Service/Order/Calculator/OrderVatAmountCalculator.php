@@ -18,7 +18,7 @@ class OrderVatAmountCalculator implements OrderAmountCalculatorInterface
     {
         $vatAmount = 0.0;
         foreach ($order->getOrderItems() as $orderItem) {
-            $vatAmount += $orderItem->getProduct()->getPrice() * self::VAT_RATE;
+            $vatAmount += $orderItem->getProduct()->getPrice() * $orderItem->getQuantity() * self::VAT_RATE;
         }
 
         return $vatAmount;
