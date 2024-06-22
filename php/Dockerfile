@@ -12,9 +12,9 @@ RUN apt-get update && apt-get install -y \
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-WORKDIR /var/www/symfony
+WORKDIR /var/www/symfony-app
 
-RUN chown -R www-data:www-data /var/www/symfony
+RUN chown -R www-data:www-data /var/www/symfony-app
 
 # Expose the port nginx is reachable on
 EXPOSE 9000

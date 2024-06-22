@@ -10,7 +10,7 @@ services:
         volumes:
             - ./nginx/nginx.conf:/etc/nginx/nginx.conf
             - ./nginx/conf.d:/etc/nginx/conf.d
-            - ./symfony/public:/var/www/symfony
+            - ./symfony-app/public:/var/www/symfony-app
         depends_on:
             - php
         networks:
@@ -22,7 +22,7 @@ services:
             dockerfile: Dockerfile
         container_name: php
         volumes:
-            - ./symfony:/var/www/symfony
+            - ./symfony-app:/var/www/symfony-app
         networks:
             - backend
 
