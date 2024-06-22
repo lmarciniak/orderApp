@@ -56,6 +56,9 @@
       <PhpSpecSuiteConfiguration>
         <option name="myPath" value="$PROJECT_DIR$/symfony" />
       </PhpSpecSuiteConfiguration>
+      <PhpSpecSuiteConfiguration>
+        <option name="myPath" value="$PROJECT_DIR$/symfony" />
+      </PhpSpecSuiteConfiguration>
     </suites>
   </component>
 </project>

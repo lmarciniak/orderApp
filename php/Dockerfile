@@ -23,11 +23,3 @@ EXPOSE 9000
 CMD ["php-fpm"]
 
 RUN composer install
-
-#RUN composer require symfony/orm-pack
-#
-#RUN composer require --dev symfony/maker-bundle
-#
-#RUN composer require doctrine/annotations
-#
-#RUN composer require symfony/validator
