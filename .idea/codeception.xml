@@ -60,6 +60,9 @@
         <Configuration>
           <option name="path" value="$PROJECT_DIR$/symfony/tests" />
         </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/symfony-app/tests" />
+        </Configuration>
       </list>
     </option>
   </component>

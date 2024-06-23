@@ -4,6 +4,7 @@
     <option name="directories">
       <list>
         <option value="$PROJECT_DIR$/symfony/tests" />
+        <option value="$PROJECT_DIR$/symfony-app/tests" />
       </list>
     </option>
   </component>

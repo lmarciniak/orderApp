@@ -8,7 +8,8 @@ RUN apt-get update && apt-get install -y \
     libzip-dev \
     zip \
     libicu-dev \
-    libxml2-dev
+    libxml2-dev \
+    php-mysql
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
