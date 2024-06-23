@@ -16,10 +16,8 @@ WORKDIR /var/www/symfony-app
 
 RUN chown -R www-data:www-data /var/www/symfony-app
 
-# Expose the port nginx is reachable on
 EXPOSE 9000
 
-# Uruchomienie PHP-FPM
 CMD ["php-fpm"]
 
 RUN composer install
