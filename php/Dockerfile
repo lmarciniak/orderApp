@@ -13,11 +13,8 @@ RUN apt-get update && apt-get install -y \
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
 WORKDIR /var/www/symfony-app
-
 RUN chown -R www-data:www-data /var/www/symfony-app
 
 EXPOSE 9000
 
 CMD ["php-fpm"]
-
-RUN composer install
