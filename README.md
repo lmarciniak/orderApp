@@ -2,7 +2,10 @@
 
 ### Ten dokument zapewnia instrukcję uruchomienia i krótki przegląd korzystania z API do tworzenia i pobierania zamówień
 ### Instrukcja uruchomienia:
-1. W bieżącym katalogu uruchom ``docker compose up -d`` aby zbudować i uruchomić kontenery.
+1. W bieżącym katalogu uruchom ```docker compose up -d``` aby zbudować i uruchomić kontenery.
+2. Przejdź do katalogu z projetem symfony
+    ``cd symfony-app``\
+    i wykonaj ``composer install``
 2. Wejdź do kontenera z aplikacją symfony i wykonaj migrację startową\
     ``docker exec -it php bash``\
     ``bin/console doctrine:migrations:migrate``
